@@ -120,23 +120,11 @@ const translations = {
       cta_text: "Want to see more? Let's talk about your project.",
       cta_btn: "Start a project",
       projects: [
-        {
+         {
           id: 1,
-          title: "MTR - Manufacture Tunisienne des Ressorts",
-          category: "Corporate Website",
-          description: "Designed and developed a modern corporate website for MTR, showcasing the company's expertise in spring manufacturing, industrial solutions, and product catalog with a responsive, multilingual, and SEO-optimized experience.",
-          tags: ["Next.js", "Responsive Design", "SEO"],
-          year: "2025",
-          link: "https://mtr-ressorts.tn/fr",
-          image: "/mtr.png",
-          color: "#C9F538",
-          bg: "from-[#C9F538]/10 to-transparent",
-        },
-        {
-          id: 2,
           title: "Recrutement OPTYLAB",
           category: "Recruitment Platform",
-          description: "Designed and developed a modern recruitment platform for OPTYLAB, enabling candidates to explore career opportunities, submit applications, and providing an intuitive, responsive, and SEO-optimized hiring experience.",
+          description: "Designed and developed an intelligent recruitment platform for OPTYLAB that enables candidates to discover career opportunities, manage their applications, and interact through a modern, responsive interface. The platform leverages AI for CV analysis, candidate matching, and recruitment assistance, helping recruiters identify the most suitable profiles more efficiently.",
           tags: ["Next.js", "Recruitment", "Responsive Design"],
           year: "2026",
           link: "https://recrutement.optylab.com",
@@ -144,77 +132,108 @@ const translations = {
           color: "#8B5CF6",
           bg: "from-[#8B5CF6]/10 to-transparent",
         },
+        {
+          id: 2,
+          title: "MTR - Manufacture Tunisienne des Ressorts",
+          category: "Corporate Website & Client Portal",
+          description: "Designed and developed a corporate platform with an integrated client portal, allowing customers to request quotations, manage orders, and interact with the company. The platform also includes an administration area for managing content and business operations.",
+          tags: ["Next.js", "Responsive Design", "SEO 100%"],
+          year: "2025",
+          link: "https://mtr-ressorts.tn/fr",
+          image: "/mtr.png",
+          color: "#C9F538",
+          bg: "from-[#C9F538]/10 to-transparent",
+        },
+       
+        {
+          id: 3,
+          title: "SBTF",
+          category: "Internal Management Software",
+          description: "Designed and developed a custom internal management software for a drilling company. The application streamlines team coordination, equipment and machinery management, work planning, and resource tracking to improve daily operations and productivity. Deployed on Windows, it is exclusively used within the company and is not publicly accessible.",
+          tags: [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "Windows Application",
+            "Internal Management"
+          ],
+          year: "2026",
+          link: "",
+          image: "/sbtf.png",
+          color: "#8B5CF6",
+          bg: "from-[#8B5CF6]/10 to-transparent",
+        },
       ],
     },
     contact: {
-  badge: "Get in touch",
-  title1: "Have a project",
-  title2: "in mind?",
-  subtitle: "We'd love to hear about it. Fill in the form and we'll get back to you within 24 hours.",
+      badge: "Get in touch",
+      title1: "Have a project",
+      title2: "in mind?",
+      subtitle: "We'd love to hear about it. Fill in the form and we'll get back to you within 24 hours.",
 
-  emailTitle: "Email us directly",
-  howItWorks: "How it works",
+      emailTitle: "Email us directly",
+      howItWorks: "How it works",
 
-  steps: {
-    s1: {
-      title: "Discovery call",
-      desc: "We chat about your vision, goals, and timeline.",
-    },
-    s2: {
-      title: "Custom proposal",
-      desc: "We send a tailored plan and transparent pricing.",
-    },
-    s3: {
-      title: "We build",
-      desc: "Iterative process with regular updates and reviews.",
-    },
-    s4: {
-      title: "Launch 🚀",
-      desc: "You go live with a product you're proud of.",
-    },
-  },
+      steps: {
+        s1: {
+          title: "Discovery call",
+          desc: "We chat about your vision, goals, and timeline.",
+        },
+        s2: {
+          title: "Custom proposal",
+          desc: "We send a tailored plan and transparent pricing.",
+        },
+        s3: {
+          title: "We build",
+          desc: "Iterative process with regular updates and reviews.",
+        },
+        s4: {
+          title: "Launch 🚀",
+          desc: "You go live with a product you're proud of.",
+        },
+      },
 
-  form: {
-    name: "Your name",
-    email: "Email address",
-    service: "Select a service",
-    message: "Tell us about your project...",
-    button: "Send message",
-    sending: "Sending...",
-    successTitle: "Message sent!",
-    successDesc: "We'll get back to you within 24 hours. Can't wait to work together! 🌿",
-    another: "Send another",
-  },
+      form: {
+        name: "Your name",
+        email: "Email address",
+        service: "Select a service",
+        message: "Tell us about your project...",
+        button: "Send message",
+        sending: "Sending...",
+        successTitle: "Message sent!",
+        successDesc: "We'll get back to you within 24 hours. Can't wait to work together! 🌿",
+        another: "Send another",
+      },
 
-  services: {
-    placeholder: "Select a service",
-    list: {
-      brand: "Brand & Visual Identity",
-      web: "Web Design & Development",
-      ecommerce: "E-commerce",
-      mobile: "Mobile App Design",
-      uiux: "UI/UX Consulting",
-      other: "Other",
+      services: {
+        placeholder: "Select a service",
+        list: {
+          brand: "Brand & Visual Identity",
+          web: "Web Design & Development",
+          ecommerce: "E-commerce",
+          mobile: "Mobile App Design",
+          uiux: "UI/UX Consulting",
+          other: "Other",
+        },
+      },
     },
-  },
-},
-footer: {
-  description: "Two full-stack developers building modern web, AI, and scalable digital solutions.",
-  navigation: "Navigation",
-  contact: "Contact",
-  status: "Available for projects",
-  copyright: "© 2026 YNITY Studio. All rights reserved.",
-  made: "Designed & built by YNITY ✦",
-  social: {
-    portfolio: "Portfolio",
-  },
-  nav: {
-    about: "About",
-    services: "Services",
-    work: "Work",
-    contact: "Contact",
-  },
-}
+    footer: {
+      description: "Two full-stack developers building modern web, AI, and scalable digital solutions.",
+      navigation: "Navigation",
+      contact: "Contact",
+      status: "Available for projects",
+      copyright: "© 2026 YNITY Studio. All rights reserved.",
+      made: "Designed & built by YNITY ✦",
+      social: {
+        portfolio: "Portfolio",
+      },
+      nav: {
+        about: "About",
+        services: "Services",
+        work: "Work",
+        contact: "Contact",
+      },
+    }
   },
   fr: {
     nav: {
@@ -334,23 +353,11 @@ footer: {
       cta_text: "Envie d'en voir plus ? Parlons de votre projet.",
       cta_btn: "Démarrer un projet",
       projects: [
-        {
+         {
           id: 1,
-          title: "MTR - Manufacture Tunisienne des Ressorts",
-          category: "Site Vitrine",
-          description: "Conception et développement d'un site corporate moderne pour MTR, mettant en valeur l'expertise de l'entreprise dans la fabrication de ressorts, les solutions industrielles et le catalogue produits avec une expérience responsive, multilingue et optimisée SEO.",
-          tags: ["Next.js", "Design Responsive", "SEO"],
-          year: "2025",
-          link: "https://mtr-ressorts.tn/fr",
-          image: "/mtr.png",
-          color: "#C9F538",
-          bg: "from-[#C9F538]/10 to-transparent",
-        },
-        {
-          id: 2,
           title: "Recrutement OPTYLAB",
           category: "Plateforme de Recrutement",
-          description: "Conception et développement d'une plateforme de recrutement moderne pour OPTYLAB, permettant aux candidats d'explorer les opportunités de carrière, de soumettre leurs candidatures, avec une expérience intuitive, responsive et optimisée SEO.",
+          description: "Conception et développement d'une plateforme de recrutement intelligente pour OPTYLAB, permettant aux candidats de découvrir des opportunités de carrière, de gérer leurs candidatures et d'interagir via une interface moderne et responsive. La plateforme intègre des fonctionnalités d'intelligence artificielle telles que l'analyse de CV, le matching intelligent entre candidats et offres d'emploi, ainsi qu'une assistance au recrutement afin d'aider les recruteurs à identifier plus efficacement les profils les plus pertinents.", 
           tags: ["Next.js", "Recrutement", "Design Responsive"],
           year: "2026",
           link: "https://recrutement.optylab.com",
@@ -358,76 +365,108 @@ footer: {
           color: "#8B5CF6",
           bg: "from-[#8B5CF6]/10 to-transparent",
         },
+        {
+          id: 2,
+          title: "MTR - Manufacture Tunisienne des Ressorts",
+          category: "Plateforme Corporate avec Portail Client",
+          description: "Conception et développement d'une plateforme corporate intégrant un portail client pour les demandes de devis, le suivi des commandes et un espace d'administration pour la gestion des contenus et des opérations.",
+          tags: ["Next.js", "Responsive Design", "SEO 100%"],
+          year: "2025",
+          link: "https://mtr-ressorts.tn/fr",
+          image: "/mtr.png",
+          color: "#C9F538",
+          bg: "from-[#C9F538]/10 to-transparent",
+        },
+       
+        {
+          id: 3,
+          title: "SBTF",
+          category: "Logiciel de Gestion Interne",
+          description:
+            "Conception et développement d'un logiciel de gestion interne sur mesure destiné à une société de tournage. L'application permet d'organiser le travail des équipes, de gérer les matériels, les machines, les interventions et les ressources de l'entreprise afin d'optimiser les opérations quotidiennes. Déployée sur Windows, elle est exclusivement utilisée en interne.",
+          tags: [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "Application Desktop",
+            "Gestion Interne"
+          ],
+          year: "2025",
+          link: "",
+          image: "/sbtf.png",
+          color: "#8B5CF6",
+          bg: "from-[#8B5CF6]/10 to-transparent",
+        },
       ],
     },
     contact: {
-  badge: "Contact",
-  title1: "Vous avez un projet",
-  title2: "en tête ?",
-  subtitle: "Nous serions ravies d’en discuter. Remplissez le formulaire et nous vous répondrons sous 24 heures.",
+      badge: "Contact",
+      title1: "Vous avez un projet",
+      title2: "en tête ?",
+      subtitle: "Nous serions ravies d’en discuter. Remplissez le formulaire et nous vous répondrons sous 24 heures.",
 
-  emailTitle: "Nous écrire directement",
-  howItWorks: "Comment ça fonctionne",
+      emailTitle: "Nous écrire directement",
+      howItWorks: "Comment ça fonctionne",
 
-  steps: {
-    s1: {
-      title: "Appel de découverte",
-      desc: "Nous discutons de votre vision, vos objectifs et vos délais.",
-    },
-    s2: {
-      title: "Proposition personnalisée",
-      desc: "Nous envoyons un plan détaillé avec un prix transparent.",
-    },
-    s3: {
-      title: "Développement",
-      desc: "Processus itératif avec mises à jour régulières.",
-    },
-    s4: {
-      title: "Lancement 🚀",
-      desc: "Mise en ligne de votre produit final prêt à être utilisé.",
-    },
-  },
+      steps: {
+        s1: {
+          title: "Appel de découverte",
+          desc: "Nous discutons de votre vision, vos objectifs et vos délais.",
+        },
+        s2: {
+          title: "Proposition personnalisée",
+          desc: "Nous envoyons un plan détaillé avec un prix transparent.",
+        },
+        s3: {
+          title: "Développement",
+          desc: "Processus itératif avec mises à jour régulières.",
+        },
+        s4: {
+          title: "Lancement 🚀",
+          desc: "Mise en ligne de votre produit final prêt à être utilisé.",
+        },
+      },
 
-  form: {
-    name: "Votre nom",
-    email: "Adresse email",
-    service: "Choisir un service",
-    message: "Parlez-nous de votre projet...",
-    button: "Envoyer le message",
-    sending: "Envoi...",
-    successTitle: "Message envoyé !",
-    successDesc: "Nous vous répondrons sous 24 heures. Hâte de collaborer ! 🌿",
-    another: "Envoyer un autre message",
-  },
+      form: {
+        name: "Votre nom",
+        email: "Adresse email",
+        service: "Choisir un service",
+        message: "Parlez-nous de votre projet...",
+        button: "Envoyer le message",
+        sending: "Envoi...",
+        successTitle: "Message envoyé !",
+        successDesc: "Nous vous répondrons sous 24 heures. Hâte de collaborer ! 🌿",
+        another: "Envoyer un autre message",
+      },
 
-  services: {
-    placeholder: "Choisir un service",
-    list: {
-      brand: "Identité visuelle & branding",
-      web: "Conception & développement web",
-      ecommerce: "E-commerce",
-      mobile: "Application mobile",
-      uiux: "Consulting UI/UX",
-      other: "Autre",
-    },
-  },
-},footer: {
-  description: "Deux développeuses full-stack créant des solutions web modernes, IA et scalables.",
-  navigation: "Navigation",
-  contact: "Contact",
-  status: "Disponible pour des projets",
-  copyright: "© 2026 YNITY Studio. Tous droits réservés.",
-  made: "Conçu & développé par YNITY ✦",
-  social: {
-    portfolio: "Portfolio",
-  },
-  nav: {
-    about: "À propos",
-    services: "Services",
-    work: "Réalisations",
-    contact: "Contact",
-  },
-}
+      services: {
+        placeholder: "Choisir un service",
+        list: {
+          brand: "Identité visuelle & branding",
+          web: "Conception & développement web",
+          ecommerce: "E-commerce",
+          mobile: "Application mobile",
+          uiux: "Consulting UI/UX",
+          other: "Autre",
+        },
+      },
+    }, footer: {
+      description: "Deux développeuses full-stack créant des solutions web modernes, IA et scalables.",
+      navigation: "Navigation",
+      contact: "Contact",
+      status: "Disponible pour des projets",
+      copyright: "© 2026 YNITY Studio. Tous droits réservés.",
+      made: "Conçu & développé par YNITY ✦",
+      social: {
+        portfolio: "Portfolio",
+      },
+      nav: {
+        about: "À propos",
+        services: "Services",
+        work: "Réalisations",
+        contact: "Contact",
+      },
+    }
   },
 };
 
