@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== CSS VARIABLES ===== */
+:root {
+  --bg: #F7F6F2;
+  --bg-secondary: #EDEAE3;
+  --text: #0A0A0F;
+  --text-muted: #6B6B7A;
+  --accent: #C9F538;
+  --card: #FFFFFF;
+  --border: rgba(10, 10, 15, 0.1);
+}
+
+.dark {
+  --bg: #0A0A0F;
+  --bg-secondary: #12121A;
+  --text: #EDEAE3;
+  --text-muted: #8A8A9A;
+  --accent: #C9F538;
+  --card: #16161E;
+  --border: rgba(237, 234, 227, 0.08);
+   color-scheme: dark;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  cursor: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection { background: #C9F538; color: #0A0A0F; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: #C9F538; border-radius: 3px; }
+
+.font-display { font-family: 'Playfair Display', serif; }
+
+.cursor-dot {
+  width: 8px; height: 8px;
+  background: #C9F538;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+.cursor-ring {
+  width: 36px; height: 36px;
+  border: 1.5px solid #C9F538;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9998;
+  mix-blend-mode: difference;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.marquee-track { animation: marquee 22s linear infinite; }
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(201,245,56,0.35); }
+  50% { box-shadow: 0 0 45px rgba(201,245,56,0.65); }
+}
+.glow-btn { animation: glow-pulse 3s ease-in-out infinite; }
+
+.gradient-text {
+  background: linear-gradient(135deg, #C9F538 0%, #8B5CF6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+.project-card { transition: transform 0.3s ease; }
+.project-card:hover { transform: translateY(-6px); }
+
